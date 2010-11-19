@@ -1,0 +1,29 @@
+GIT
+  remote: git://github.com/helios/bioruby-geek
+  revision: fc78f80bbd5a18b75aa442ce8afcd2e08e0b735b
+  specs:
+    bio-geek (0.0.1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    bio (1.4.1)
+    git (1.2.5)
+    jeweler (1.5.1)
+      bundler (~> 1.0.0)
+      git (>= 1.2.5)
+      rake
+    rake (0.8.7)
+    rcov (0.9.9)
+    shoulda (2.11.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bio (>= 1.4.1)
+  bio-geek!
+  bundler (~> 1.0.0)
+  jeweler (~> 1.5.1)
+  rcov
+  shoulda

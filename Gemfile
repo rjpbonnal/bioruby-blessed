@@ -12,3 +12,8 @@ group :development do
   gem "rcov", ">= 0"
   gem "bio", ">= 1.4.1"
 end
+
+
+gem "bio-geek", :git=>"git://github.com/helios/bioruby-geek"
+gem "bio", ">= 1.4.1"
+
